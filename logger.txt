@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-10-17T15:51:58</date>
+  <millis>1697538118090</millis>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>SEVERE</level>
+  <class>com.logger.LoggerClass</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>severe msg</message>
+</record>
+<record>
+  <date>2023-10-17T15:51:58</date>
+  <millis>1697538118110</millis>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>SEVERE</level>
+  <class>com.logger.LoggerClass</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Supplier msg</message>
+</record>
+<record>
+  <date>2023-10-17T15:51:58</date>
+  <millis>1697538118112</millis>
+  <sequence>2</sequence>
+  <level>SEVERE</level>
+  <class>com.logger.LoggerClass</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>log record severe</message>
+</record>
+</log>
+Oct 17, 2023 3:53:10 PM com.logger.LoggerClass main
+SEVERE: severe msg
+Oct 17, 2023 3:53:10 PM com.logger.LoggerClass main
+SEVERE: Supplier msg
+Oct 17, 2023 3:53:10 PM com.logger.LoggerClass main
+SEVERE: log record severe
